@@ -1,5 +1,21 @@
 function stringChop(str, size) {
-  // your code here
+  let B=[];
+  let A="";
+  let c=0;
+	for(i=0;i<str.length;)
+	{
+	  for(j=i;j<n && j<str.length;j++)
+	  {
+	    A+=s[j];
+	  }
+	  i=j;
+	  size=size+size;
+	 // console.log(A);
+	  B[c]=A;
+	  c++;
+	  A="";
+	}
+	return B;
 }
 
 // Do not change the code below
